@@ -1,6 +1,6 @@
 import express from "express";
 import ffmpeg from "fluent-ffmpeg";
-ffmpeg.setFfmpegPath("/usr/bin/ffmpeg"); // This is the path in most Ubuntu/WSL setups
+// ffmpeg.setFfmpegPath("/usr/bin/ffmpeg"); // This is the path in most Ubuntu/WSL setups
 
 const app = express()
 app.use(express.json());
